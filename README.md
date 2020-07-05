@@ -30,6 +30,8 @@ Here is a good overview of UART USB-to-Serial adapters:
 * https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
 * https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 
+See the [board diagram](./images/NanoPC-T4_1802_Drawing.png) for pin layout.
+
 # Upgrade Tool
 
 ## Usage
