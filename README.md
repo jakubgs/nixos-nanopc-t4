@@ -146,10 +146,6 @@ booti ${loadaddr} ${initrd_loadaddr} ${dtb_loadaddr}
 ## `extlinux.conf`
 
 ```
- > cat /mnt/plugged/boot/extlinux/extlinux.conf   
-# Generated file, all changes will be lost on nixos-rebuild!
-
-# Change this to e.g. nixos-42 to temporarily boot to an older configuration.
 DEFAULT nixos-default
 
 MENU TITLE ------------------------------------------------------------
@@ -183,3 +179,6 @@ Starting kernel ...
 ## Links
 
 * https://wiki.amarulasolutions.com/bsp/rockchip/rk3399/npc_t4.html
+* https://github.com/hypriot/image-builder-odroid-c2/issues/5
+* https://github.com/rockchip-linux/rkdeveloptool
+* https://nixos.wiki/wiki/NixOS_on_ARM/Firefly_AIO-3399C
