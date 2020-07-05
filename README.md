@@ -163,6 +163,23 @@ LABEL nixos-default
   APPEND systemConfig=/nix/store/c04k3lra7xmrvak7j47p7aclgp7kxxsw-nixos-system-nixos-20.03.2027.aca160ea229 init=/nix/store/c04k3lra7xmrvak7j47p7aclgp7kxxsw-nixos-system-nixos-20.03.2027.aca160ea229/init cma=32M console=ttyS0,115200n8 console=ttyAMA0,115200n8 console=tty0 loglevel=7
 ```
 
+## Failure
+
+I tried booting the kernel from the `nixos-sd-image-20.03.2447.afa9ca61924-aarch64-linux.img` SD card image but that failed:
+```
+=> setenv loadaddr "0x11000000"
+=> setenv bootdev "0:7"
+=> setenv bootdir "/boot/nixos"
+=> setenv kernel "h70z2sg8gbpj8jy3s4k6d55wwz9b0fcz-linux-5.4.43-Image"
+=>
+=> ext4load mmc ${bootdev} ${loadaddr} ${bootdir}/${kernel}
+36018688 bytes read in 909 ms (37.8 MiB/s)
+=> 
+=> booti ${loadaddr}
+
+Starting kernel ...
+```
+
 ## Links
 
 * https://wiki.amarulasolutions.com/bsp/rockchip/rk3399/npc_t4.html
