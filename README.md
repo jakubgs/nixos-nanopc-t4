@@ -2,6 +2,23 @@
 
 This document is my collection of notes and links when researching how to run NixOS on [NanoPC-T4](http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4#System_Login).
 
+# Table of Contents
+
+1\.  [Links](#links)  
+2\.  [UART Console](#uartconsole)  
+3\.  [Upgrade Tool](#upgradetool)  
+3.1\.  [Usage](#usage)  
+3.2\.  [Links](#links-1)  
+4\.  [U-Boot](#u-boot)  
+4.1\.  [Usage](#usage-1)  
+4.2\.  [Links](#links-2)  
+5\.  [Booting](#booting)  
+5.1\.  [Errors](#errors)  
+6\.  [Commands](#commands)  
+6.1\.  [`extlinux.conf`](#`extlinux.conf`)  
+6.2\.  [Failure](#failure)  
+6.3\.  [Links](#links-3)  
+
 # Links
 
 General related links:
