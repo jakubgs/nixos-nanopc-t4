@@ -19,6 +19,10 @@ Device provides a Debug UART 4 Pin 2.54mm header connection, 3V level, 1500000bp
 To connect to you willneed a USB to UART converterreceiver that supports the speed of 1500000bps.
 
 A reader using `CP2102` chip did not work but `FT232RL` works fine:
+
+![](./images/FT232RL.jpg)
+
+You can use `minicom` to connect, but you'll need to disable flow control:
 ```
 sudo minicom -D /dev/ttyUSB0 -b 1500000
 ```
