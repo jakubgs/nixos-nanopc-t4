@@ -1,3 +1,7 @@
+# Description
+
+This document is my collection of notes and links when researching how to run NixOS on [NanoPC-T4](http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4#System_Login).
+
 # Upgrade Tool
 
 ## Usage
@@ -74,15 +78,17 @@ sdhci@fe330000: 0 (eMMC)
 
 ## Links
 
-https://github.com/armbian/build
-https://github.com/rockchip-linux/buildroot
-https://buildroot.org/downloads/manual/manual.html#_getting_started
-https://www.linuxjournal.com/content/handy-u-boot-trick
-http://xillybus.com/tutorials/uboot-hacking-howto-1
-https://github.com/u-boot/u-boot
-https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
+* https://github.com/armbian/build
+* https://github.com/rockchip-linux/buildroot
+* https://buildroot.org/downloads/manual/manual.html#_getting_started
+* https://www.linuxjournal.com/content/handy-u-boot-trick
+* http://xillybus.com/tutorials/uboot-hacking-howto-1
+* https://github.com/u-boot/u-boot
+* https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
 
 # Booting
+
+## Errors
 
 ```
 Gave up waiting for userdata file system device.  Common problems:
@@ -136,6 +142,8 @@ ext4load mmc ${bootdev} ${dtb_loadaddr} ${bootdir}/h70z2sg8gbpj8jy3s4k6d55wwz9b0
 booti ${loadaddr} - ${dtb_loadaddr}
 booti ${loadaddr} ${initrd_loadaddr} ${dtb_loadaddr}
 ```
+
+## `extlinux.conf`
 
 ```
  > cat /mnt/plugged/boot/extlinux/extlinux.conf   
