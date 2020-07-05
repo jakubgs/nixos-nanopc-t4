@@ -2,6 +2,16 @@
 
 This document is my collection of notes and links when researching how to run NixOS on [NanoPC-T4](http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4#System_Login).
 
+# Links
+
+General related links:
+
+* https://www.armbian.com/nanopc-t4/
+* http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4
+* https://github.com/makefu/ROC-RK3399-PC-overlay
+* https://nixos.wiki/wiki/NixOS_on_ARM/Firefly_AIO-3399C
+* https://nixos.wiki/wiki/NixOS_on_ARM/PINE64_ROCKPro64
+
 # UART Console
 
 Device provides a Debug UART 4 Pin 2.54mm header connection, 3V level, 1500000bps.
@@ -55,13 +65,8 @@ NO  LBA        Size       Name
 
 ## Links
 
-* https://nixos.wiki/wiki/NixOS_on_ARM/PINE64_ROCKPro64
-* https://nixos.wiki/wiki/NixOS_on_ARM/Firefly_AIO-3399C
 * http://opensource.rock-chips.com/wiki_Upgradetool
 * https://github.com/rockchip-linux/tools
-* https://github.com/makefu/ROC-RK3399-PC-overlay
-* http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4
-* https://www.armbian.com/nanopc-t4/
 
 # U-Boot
 
@@ -194,4 +199,3 @@ Starting kernel ...
 * https://wiki.amarulasolutions.com/bsp/rockchip/rk3399/npc_t4.html
 * https://github.com/hypriot/image-builder-odroid-c2/issues/5
 * https://github.com/rockchip-linux/rkdeveloptool
-* https://nixos.wiki/wiki/NixOS_on_ARM/Firefly_AIO-3399C
