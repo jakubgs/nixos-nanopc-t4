@@ -2,6 +2,20 @@
 
 This document is my collection of notes and links when researching how to run NixOS on [NanoPC-T4](http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4#System_Login).
 
+# UART Console
+
+Device provides a Debug UART 4 Pin 2.54mm header connection, 3V level, 1500000bps.
+
+To connect to you willneed a USB to UART converterreceiver that supports the speed of 1500000bps.
+
+A reader using `CP2102` chip did not work but `FT232RL` works fine:
+```
+sudo minicom -D /dev/ttyUSB0 -b 1500000
+```
+Here is a good overview of UART USB-to-Serial adapters:
+* https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
+* https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
+
 # Upgrade Tool
 
 ## Usage
@@ -84,7 +98,6 @@ sdhci@fe330000: 0 (eMMC)
 * https://www.linuxjournal.com/content/handy-u-boot-trick
 * http://xillybus.com/tutorials/uboot-hacking-howto-1
 * https://github.com/u-boot/u-boot
-* https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
 
 # Booting
 
