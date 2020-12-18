@@ -47,7 +47,15 @@ Here is a good overview of UART USB-to-Serial adapters:
 * https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
 * https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
 
-See the [board diagram](./images/NanoPC-T4_1802_Drawing.png) for pin layout.
+Pin layout where #4 is next to USB-C port:
+
+| Pin num.| #1  | #2 | #3 | #4 |
+|---------|-----|----|----|----|
+| Purpose | GND | V5 | XT | XR |
+
+See the full board diagram for more details:
+
+![](./images/NanoPC-T4_1802_Drawing.png)
 
 # Upgrade Tool
 
