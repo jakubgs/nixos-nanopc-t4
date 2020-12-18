@@ -33,7 +33,9 @@ General related links:
 
 Device provides a Debug UART 4 Pin 2.54mm header connection, 3V level, 1500000bps.
 
-To connect to you willneed a USB to UART converterreceiver that supports the speed of 1500000bps.
+To connect to you will need a USB to UART converterreceiver that supports the speed of 1500000bps.
+
+The serial port parameters are [8-N-1](https://en.wikipedia.org/wiki/8-N-1).
 
 A reader using `CP2102` chip did not work but `FT232RL` works fine:
 
