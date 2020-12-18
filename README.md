@@ -41,10 +41,13 @@ A reader using `CP2102` chip did not work but `FT232RL` works fine:
 
 ![](./images/FT232RL.jpg)
 
-You can use `minicom` to connect, but you'll need to disable flow control:
+You can use `minicom` or `picocom` to connect:
 ```
-sudo minicom -D /dev/ttyUSB0 -b 1500000
+sudo minicom -b 1500000 -D /dev/ttyUSB0 
+sudo picocom -b 1500000 /dev/ttyUSB0
 ```
+But you'll need to disable flow control with `Ctrl-A x`.
+
 Here is a good overview of UART USB-to-Serial adapters:
 * https://www.sjoerdlangkemper.nl/2019/03/20/usb-to-serial-uart/
 * https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf
@@ -58,6 +61,9 @@ Pin layout where #4 is next to USB-C port:
 See the full board diagram for more details:
 
 ![](./images/NanoPC-T4_1802_Drawing.png)
+
+You can access the recovery console by holding the __Recovery__ button and then pressing the __Power__ button.
+For this to work the device will have to be off, which requires holding the __Power__ button long enough.
 
 # Upgrade Tool
 
