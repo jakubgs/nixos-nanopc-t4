@@ -61,6 +61,8 @@ Pin layout where #4 is next to USB-C port:
 
 Remember that the `TX` and `RX` ports should be swapped between UART adapter and the board.
 
+The V5 pin does not need to be connected if you're powering the board from another source.
+
 See the full board diagram for more details:
 
 ![](./images/NanoPC-T4_1802_Drawing.png)
@@ -79,6 +81,7 @@ sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool di -u uboot.img
 sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool di -t trust.img
 sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool di -re resource.img
 sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool di -k kernel.img
+sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool di -b boot.img
 sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool di -rootfs rootfs.img
 sudo ../tools/linux/Linux_Upgrade_Tool/upgrade_tool rd
 ```
