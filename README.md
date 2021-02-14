@@ -91,11 +91,5 @@ Once everything is synced you can finally reboot.
 * [UART Console](./UART.md)
 * [U-Boot](./UBOOT.md)
 * [Upgrade Tool](./UPGRADE_TOOL.md)
-* [Logs](./LOGS.md)
-
-# Links
-
-* https://www.armbian.com/nanopc-t4/
-* https://nixos.wiki/wiki/NixOS_on_ARM/NanoPC-T4
-* https://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4
-* https://github.com/makefu/ROC-RK3399-PC-overlay
+* [Logs](./logs/README.md)
+* [Links](./LINKS.md)

@@ -1,0 +1,34 @@
+PCI/MSI: /interrupt-controller@fee00000/interrupt-controller@fee20000 domain created
+PCI: CLS 0 bytes, default 64
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+OF: /pcie@f8000000: Missing device_type
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: no vpcie12v regulator found
+ehci-pci: EHCI PCI platform driver
+ohci-pci: OHCI PCI platform driver
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: no vpcie12v regulator found
+rockchip-pcie f8000000.pcie: PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [bus 00-1f]
+pci_bus 0000:00: root bus resource [mem 0xfa000000-0xfbdfffff]
+pci_bus 0000:00: root bus resource [io  0x0000-0xfffff] (bus address [0xfbe00000-0xfbefffff])
+pci 0000:00:00.0: [1d87:0100] type 01 class 0x060400
+pci 0000:00:00.0: supports D1
+pci 0000:00:00.0: PME# supported from D0 D1 D3hot
+pci 0000:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+pci 0000:01:00.0: [144d:a808] type 00 class 0x010802
+pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00003fff 64bit]
+pci 0000:01:00.0: Max Payload Size set to 256 (was 128, max 256)
+pci 0000:01:00.0: 16.000 Gb/s available PCIe bandwidth, limited by 5.0 GT/s PCIe x4 link at 0000:00:00.0 (capable of 31.504 Gb/s with 8.0 GT/s PCIe x4 link)
+pci_bus 0000:01: busn_res: [bus 01-1f] end is updated to 01
+pci 0000:00:00.0: BAR 14: assigned [mem 0xfa000000-0xfa0fffff]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfa000000-0xfa003fff 64bit]
+pci 0000:00:00.0: PCI bridge to [bus 01]
+pci 0000:00:00.0:   bridge window [mem 0xfa000000-0xfa0fffff]
+pcieport 0000:00:00.0: enabling device (0000 -> 0002)
+pcieport 0000:00:00.0: PME: Signaling with IRQ 92
+pcieport 0000:00:00.0: AER: enabled with IRQ 92
+nvme nvme0: pci function 0000:01:00.0

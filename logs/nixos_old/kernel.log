@@ -1,0 +1,32 @@
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:      MEM 0x00fa000000..0x00fbdfffff -> 0x00fa000000
+rockchip-pcie f8000000.pcie:       IO 0x00fbe00000..0x00fbefffff -> 0x00fbe00000
+rockchip-pcie f8000000.pcie: no vpcie12v regulator found
+rockchip-pcie f8000000.pcie: PCIe link training gen1 timeout!
+rockchip-pcie: probe of f8000000.pcie failed with error -110
+
+[    0.010197] PCI/MSI: /interrupt-controller@fee00000/interrupt-controller@fee20000 domain created
+[    0.882549] PCI: CLS 0 bytes, default 64
+[    1.616609] ehci-pci: EHCI PCI platform driver
+[    1.651720] ohci-pci: OHCI PCI platform driver
+[    5.010603] rockchip-pcie f8000000.pcie: no vpcie12v regulator found
+[    5.010620] rockchip-pcie f8000000.pcie: no vpcie3v3 regulator found
+[    5.010631] rockchip-pcie f8000000.pcie: no vpcie1v8 regulator found
+[    5.010641] rockchip-pcie f8000000.pcie: no vpcie0v9 regulator found
+[    5.538198] rockchip-pcie f8000000.pcie: PCIe link training gen1 timeout!
+[    5.538942] rockchip-pcie: probe of f8000000.pcie failed with error -110

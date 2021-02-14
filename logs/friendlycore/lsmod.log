@@ -1,0 +1,17 @@
+pi@NanoPC-T4:/lib/modules/4.19.111/kernel/arch/arm64$ sudo lsmod
+Module                  Size  Used by
+algif_hash             16384  1
+algif_skcipher         16384  1
+af_alg                 24576  6 algif_hash,algif_skcipher
+bnep                   24576  2
+hci_uart               61440  1
+btbcm                  16384  1 hci_uart
+serdev                 20480  1 hci_uart
+bcmdhd               1155072  0
+crct10dif_ce           16384  0
+rk_wifi_config         16384  1 bcmdhd
+cfg80211              606208  1 bcmdhd
+uio_pdrv_genirq        16384  0
+uio                    20480  1 uio_pdrv_genirq
+sch_fq_codel           20480  2
+ip_tables              28672  0

@@ -1,0 +1,7 @@
+sochan@nanopct4:~$ uname -a
+Linux nanopct4 5.10.12-rockchip64 #21.02.1 SMP PREEMPT Wed Feb 3 20:55:02 CET 2021 aarch64 aarch64 aarch64 GNU/Linux
+
+sochan@nanopct4:/boot$ sudo apt list | grep current-rockchip64
+linux-dtb-current-rockchip64/now 21.02.1 arm64 [installed,local]
+linux-headers-current-rockchip64/focal 20.11.4 arm64
+linux-image-current-rockchip64/now 21.02.1 arm64 [installed,local]

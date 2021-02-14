@@ -1,0 +1,29 @@
+00:00.0 PCI bridge: Fuzhou Rockchip Electronics Co., Ltd RK3399 PCI Express Root Port (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 92
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 00000000-00000fff [size=4K]
+	Memory behind bridge: fa000000-fa0fffff [size=1M]
+	Prefetchable memory behind bridge: 00000000-000fffff [size=1M]
+	Capabilities: [80] Power Management version 3
+	Capabilities: [90] MSI: Enable+ Count=1/1 Maskable+ 64bit+
+	Capabilities: [b0] MSI-X: Enable- Count=1 Masked-
+	Capabilities: [c0] Express Root Port (Slot+), MSI 00
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [274] Transaction Processing Hints
+	Kernel driver in use: pcieport
+
+01:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983 (prog-if 02 [NVM Express])
+	Subsystem: Samsung Electronics Co Ltd NVMe SSD Controller SM981/PM981/PM983
+	Flags: bus master, fast devsel, latency 0, IRQ 91, NUMA node 0
+	Memory at fa000000 (64-bit, non-prefetchable) [size=16K]
+	Capabilities: [40] Power Management version 3
+	Capabilities: [50] MSI: Enable- Count=1/1 Maskable- 64bit+
+	Capabilities: [70] Express Endpoint, MSI 00
+	Capabilities: [b0] MSI-X: Enable+ Count=33 Masked-
+	Capabilities: [100] Advanced Error Reporting
+	Capabilities: [148] Device Serial Number 00-00-00-00-00-00-00-00
+	Capabilities: [158] Power Budgeting <?>
+	Capabilities: [168] Secondary PCI Express
+	Capabilities: [188] Latency Tolerance Reporting
+	Capabilities: [190] L1 PM Substates
+	Kernel driver in use: nvme

@@ -1,0 +1,35 @@
+pi@NanoPC-T4:~$ sudo journalctl | grep -i pci
+PCI/MSI: /interrupt-controller@fee00000/interrupt-controller@fee20000 domain created
+PCI: CLS 0 bytes, default 64
+rockchip-pcie f8000000.pcie: GPIO lookup for consumer ep
+rockchip-pcie f8000000.pcie: using device tree for GPIO lookup
+of_get_named_gpiod_flags: parsed 'ep-gpios' property of node '/pcie@f8000000[0]' - status (0)
+rockchip-pcie f8000000.pcie: missing "memory-region" property
+rockchip-pcie f8000000.pcie: no vpcie12v regulator found
+rockchip-pcie f8000000.pcie: no vpcie3v3 regulator found
+rockchip-pcie f8000000.pcie: no vpcie1v8 regulator found
+rockchip-pcie f8000000.pcie: no vpcie0v9 regulator found
+rockchip-pcie f8000000.pcie: host bridge /pcie@f8000000 ranges:
+rockchip-pcie f8000000.pcie:   MEM 0xfa000000..0xfbdfffff -> 0xfa000000
+rockchip-pcie f8000000.pcie:    IO 0xfbe00000..0xfbefffff -> 0xfbe00000
+rockchip-pcie f8000000.pcie: PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [bus 00-1f]
+pci_bus 0000:00: root bus resource [mem 0xfa000000-0xfbdfffff]
+pci_bus 0000:00: root bus resource [io  0x0000-0xfffff] (bus address [0xfbe00000-0xfbefffff])
+pci 0000:00:00.0: [1d87:0100] type 01 class 0x060400
+pci 0000:00:00.0: supports D1
+pci 0000:00:00.0: PME# supported from D0 D1 D3hot
+pci 0000:00:00.0: bridge configuration invalid ([bus 00-00]), reconfiguring
+pci 0000:01:00.0: [144d:a808] type 00 class 0x010802
+pci 0000:01:00.0: reg 0x10: [mem 0x00000000-0x00003fff 64bit]
+pci 0000:01:00.0: 16.000 Gb/s available PCIe bandwidth, limited by 5 GT/s x4 link at 0000:00:00.0 (capable of 31.504 Gb/s with 8 GT/s x4 link)
+pci_bus 0000:01: busn_res: [bus 01-1f] end is updated to 01
+pci 0000:00:00.0: BAR 8: assigned [mem 0xfa000000-0xfa0fffff]
+pci 0000:01:00.0: BAR 0: assigned [mem 0xfa000000-0xfa003fff 64bit]
+pci 0000:00:00.0: PCI bridge to [bus 01]
+pci 0000:00:00.0:   bridge window [mem 0xfa000000-0xfa0fffff]
+pcieport 0000:00:00.0: enabling device (0000 -> 0002)
+pcieport 0000:00:00.0: Signaling PME with IRQ 76
+pcieport 0000:00:00.0: AER enabled with IRQ 76
+nvme nvme0: pci function 0000:01:00.0
+ehci-pci: EHCI PCI platform driver

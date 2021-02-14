@@ -1,0 +1,11 @@
+Disk /dev/nvme0n1: 232.91 GiB, 250059350016 bytes, 488397168 sectors
+Disk model: Samsung SSD 970 EVO Plus 250GB          
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x033ede3f
+
+Device         Boot     Start       End   Sectors  Size Id Type
+/dev/nvme0n1p1             32 471859232 471859201  225G 83 Linux
+/dev/nvme0n1p2      471859233 488397167  16537935  7.9G 83 Linux

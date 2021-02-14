@@ -1,0 +1,16 @@
+sochan@nanopct4:~$ ls -l /boot/
+total 63872
+-rw-r--r-- 1 root root      166 Feb  9 18:59 armbianEnv.txt
+-rw-r--r-- 1 root root     1536 Feb  4 12:12 armbian_first_run.txt.template
+-rw-r--r-- 1 root root    38518 Feb  4 12:12 boot.bmp
+-rw-r--r-- 1 root root     3113 Feb  4 12:10 boot.cmd
+-rw-rw-r-- 1 root root     3185 Feb  4 12:12 boot.scr
+-rw-r--r-- 1 root root   221399 Feb  3 19:55 config-5.10.12-rockchip64
+lrwxrwxrwx 1 root root       22 Feb  4 12:11 dtb -> dtb-5.10.12-rockchip64
+drwxr-xr-x 6 root root     4096 Feb  4 12:11 dtb-5.10.12-rockchip64
+lrwxrwxrwx 1 root root       26 Feb  4 12:10 Image -> vmlinuz-5.10.12-rockchip64
+-rw-r--r-- 1 root root 15339843 Feb  4 12:14 initrd.img-5.10.12-rockchip64
+-rw-r--r-- 1 root root  5835612 Feb  3 19:55 System.map-5.10.12-rockchip64
+lrwxrwxrwx 1 root root       26 Feb  4 12:14 uInitrd -> uInitrd-5.10.12-rockchip64
+-rw-r--r-- 1 root root 15339907 Feb  4 12:14 uInitrd-5.10.12-rockchip64
+-rw-r--r-- 1 root root 28582400 Feb  3 19:55 vmlinuz-5.10.12-rockchip64

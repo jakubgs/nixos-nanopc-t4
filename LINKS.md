@@ -1,0 +1,22 @@
+# Links
+
+* https://www.armbian.com/nanopc-t4/
+* https://nixos.wiki/wiki/NixOS_on_ARM/NanoPC-T4
+* https://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4
+* https://github.com/armbian/build/blob/master/config/sources/families/rockchip64.conf
+* https://github.com/friendlyarm/kernel-rockchip
+* https://github.com/rockchip-linux/kernel/issues/116
+* https://github.com/ayufan-rock64/linux-kernel
+* https://github.com/MichaIng/DietPi/issues/1829
+* https://github.com/ayufan-rock64/linux-kernel/commit/3cde5c624c9c39aa03251a55c2d26a48b5bdca5
+* https://github.com/friendlyarm/kernel-rockchip/commit/7117f55d19dc3b902b8ce7e28b944d30105069a5
+* https://github.com/friendlyarm/kernel-rockchip/commit/2e5b78e90fe450aca212af67d7ea831a364da9a4
+* https://github.com/friendlyarm/kernel-rockchip/tree/nanopi4-linux-v4.4.y_r201904
+* https://github.com/friendlyarm/kernel-rockchip/blob/nanopi4-v4.19.y/Makefile
+* https://github.com/rockchip-linux/kernel/blob/develop-4.19/Makefile
+* https://github.com/NixOS/nixpkgs/issues/64916
+* https://discourse.nixos.org/t/how-to-provide-missing-headers-to-a-kernel-build/11422/2
+* https://discourse.nixos.org/t/caching-local-compilation-results-for-all-compiled-packages/3516/2
+* https://github.com/rockchip-linux/kernel/issues/116
+* https://patchwork.kernel.org/project/linux-rockchip/patch/1502353273-123788-1-git-send-email-shawn.lin@rock-chips.com/
+* https://github.com/makefu/ROC-RK3399-PC-overlay
