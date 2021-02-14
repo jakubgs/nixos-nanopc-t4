@@ -35,6 +35,10 @@ NO  LBA        Size       Name
 08  0x00980000 0xffffffff userdata
 ```
 
+## Script
+
+When playing with this I made [a script](./flash.sh) for flashing the eMMC.
+
 ## Links
 
 * http://opensource.rock-chips.com/wiki_Upgradetool
