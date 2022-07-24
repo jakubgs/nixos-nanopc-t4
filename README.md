@@ -21,36 +21,21 @@ The basic configuration should look something like this:
   hardware.enableRedistributableFirmware = true;
 }
 ```
-But to make the NVMe SSD be detected you will need to compile some modules directly into the kernel:
+
+To make the NVMe SSD be detected at boot compile Rockchip modules directly into the kernel:
 ```nix
 {
-  boot.kernelPackages = pkgs.linuxPackages_5_10;
   boot.kernelPatches = [{
     name = "pcie-rockchip-config.patch";
     patch = null;
     extraConfig = ''
-      LOCALVERSION_AUTO n
-      COMPILE_TEST y
-      NVME_CORE y
-      BLK_DEV_NVME y
-      NVME_MULTIPATH y
-      PCIE_ROCKCHIP y
-      PCIE_ROCKCHIP_HOST y
-      PCIE_ROCKCHIP_EP y
-      ROCKCHIP_THERMAL y
-      ROCKCHIP_LVDS y
-      ROCKCHIP_MBOX y
-      DEVFREQ_EVENT_ROCKCHIP_DFI y
-      ROCKCHIP_SARADC y
-      PHY_ROCKCHIP_DP y
-      PHY_ROCKCHIP_INNO_HDMI y
-      PHY_ROCKCHIP_INNO_USB3 y
       PHY_ROCKCHIP_PCIE y
-      PHY_ROCKCHIP_USB y
+      PCIE_ROCKCHIP_HOST y
     '';
   }];
 }
 ```
+For more details see the [PCI NVMe document](./PCIE_NVME.md).
 
 ## NixOS on ZFS
 
@@ -91,5 +76,6 @@ Once everything is synced you can finally reboot.
 * [UART Console](./UART.md)
 * [U-Boot](./UBOOT.md)
 * [Upgrade Tool](./UPGRADE_TOOL.md)
+* [PCI NVMe](./PCIE_NVME.md)
 * [Logs](./logs/README.md)
 * [Links](./LINKS.md)
