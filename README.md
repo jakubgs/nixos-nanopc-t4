@@ -1,6 +1,8 @@
 # Description
 
-This document on how I configure [NixOS](https://nixos.org/) on [NanoPC-T4](http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4#System_Login) and contains my original collection of notes and links when researching hhow to do this.
+This document on how I configure [NixOS](https://nixos.org/) on [NanoPC-T4](http://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4#System_Login) and contains my original collection of notes and links when researching how to do this.
+
+![NanoPC-T4 Photo](./images/NanoPC-T4_Photo.png)
 
 # Solution
 
