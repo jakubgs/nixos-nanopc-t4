@@ -8,7 +8,7 @@ This document on how I configure [NixOS](https://nixos.org/) on [NanoPC-T4](http
 
 ## Booting
 
-To install NixOS on you can follow the [official instructions](https://nixos.wiki/wiki/NixOS_on_ARM/NanoPC-T4) by downloading the [pre-built images](https://github.com/tmountain/arch-nanopct4/tree/main/images/). You can also build the U-Boot image yourself from `nixpkgs` based on changes added in [#111034](https://github.com/NixOS/nixpkgs/pull/111034).
+To install NixOS on you can follow the [official instructions](https://wiki.nixos.org/wiki/NixOS_on_ARM/NanoPC-T4) by downloading the [pre-built images](https://github.com/tmountain/arch-nanopct4/tree/main/images/). You can also build the U-Boot image yourself from `nixpkgs` based on changes added in [#111034](https://github.com/NixOS/nixpkgs/pull/111034).
 
 ## NixOS Config
 
