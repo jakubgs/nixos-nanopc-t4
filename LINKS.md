@@ -1,7 +1,7 @@
 # Links
 
 * https://www.armbian.com/nanopc-t4/
-* https://nixos.wiki/wiki/NixOS_on_ARM/NanoPC-T4
+* https://wiki.nixos.org/wiki/NixOS_on_ARM/NanoPC-T4
 * https://wiki.friendlyarm.com/wiki/index.php/NanoPC-T4
 * https://github.com/armbian/build/blob/master/config/sources/families/rockchip64.conf
 * https://github.com/friendlyarm/kernel-rockchip
